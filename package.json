@@ -1,0 +1,40 @@
+{
+  "name": "simple-node-app",
+  "version": "0.1.0",
+  "description": "Simple Example Node.js Application",
+  "main": "src/index.js",
+  "scripts": {
+    "coverage": "NODE_ENV=test NODE_CONFIG_DIR='src/config' nyc mocha ./src/**/*.test.js",
+    "lint": "eslint .",
+    "start": "NODE_CONFIG_DIR='src/config' node src/index.js",
+    "test": "NODE_ENV=test NODE_CONFIG_DIR='src/config' mocha ./src/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuarwynn/simple-node-app.git"
+  },
+  "author": "Josh Wynn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuarwynn/simple-node-app/issues"
+  },
+  "homepage": "https://github.com/joshuarwynn/simple-node-app#readme",
+  "dependencies": {
+    "boom": "^6.0.0",
+    "config": "^1.26.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "superagent": "^3.6.3",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^4.0.1",
+    "nock": "^9.0.22",
+    "nyc": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}

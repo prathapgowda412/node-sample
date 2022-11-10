@@ -1,0 +1,12 @@
+{
+  "twitter": {
+    "consumerKey": "0000000000000000000000000",
+    "consumerSecret": "00000000000000000000000000000000000000000000000000",
+    "accessTokenKey": "00000000000000000000000000000000000000000000000000",
+    "accessTokenSecret": "000000000000000000000000000000000000000000000"
+  },
+  "yahoo": {
+    "queryURI": "https://query.yahooapis.com/v1/public/yql",
+    "queryBaseURI": "https://query.yahooapis.com"
+  }
+}
